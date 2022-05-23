@@ -1,0 +1,51 @@
+.theme_switch {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.theme_switch > span {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    margin-right: 1rem;
+    color: var(--lm-text-alt);
+}
+
+.theme_switch > button {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transform: translateX(3px);
+}
+
+.theme_switch > button > span {
+    position: absolute;
+    inset: 0;
+}
+
+.theme_sun {
+    opacity: 0;
+    transform: translatey(20%) rotatez(50deg);
+    transition: all 1s ease-out;
+}
+
+.theme_moon {
+    opacity: 1;
+    transform: translatey(0) rotatez(0deg);
+    transition: all 1s ease-out;
+}
+
+.animate_sun {
+    opacity: 1;
+    transform: translatey(0%) rotatez(0deg);
+}
+
+.animate_moon {
+    opacity: 0;
+    transform: translatey(20%) rotatez(100deg);
+}

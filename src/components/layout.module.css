@@ -1,0 +1,30 @@
+.container {
+    padding: 0 1.5rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.title {
+    font-size: 1.7rem;
+    color: var(--lm-text-alt);
+}
+
+@media screen 
+and (min-width: 768px) 
+and (max-width: 1024px) {
+    .container {
+        margin-top: 130px;
+        padding: 0;   
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .header {
+        margin-top: 125px;
+    }
+}
