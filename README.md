@@ -1,4 +1,11 @@
+# Frontend Mentor - GitHub user search app
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+[Live site](https://github-user-search-app-pied.vercel.app/)
+
+![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
+
 
 ## Getting Started
 
