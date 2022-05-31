@@ -10,8 +10,6 @@ const result = ({ userData }, props) => {
 
     return (
         <div className={styles.result}>
-          {/* <div className={styles.top}> */}
-            {/* <Image className={styles.avatar} src="/images/profile.jpg" alt="Avatar" width={80} height={80} /> */}
             <UserAvatar userData={ userData } />
             <div className={styles.profile_infos}>
               <div className={styles.name}>{userData.name}</div>
@@ -22,12 +20,8 @@ const result = ({ userData }, props) => {
               </div>
               <div className={styles.date}>Joined <Date dateString={userData.created_at} /></div>
             </div>
-          {/* </div> */}
           <div className={styles.bottom}>
             <p className={styles.presentation}>
-              {/* This profile has no bio */}
-              {/* Lorem ipsum dolor sit amet. consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. */}
-
               {`${userData.bio === null ? "This profile has no bio" : `${userData.bio}`}`}
               </p>
             <div className={styles.counter}>
