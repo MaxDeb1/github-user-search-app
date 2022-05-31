@@ -27,7 +27,7 @@ const Index = (props) => {
   )
 }
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const userName = 'octocat';
   const res = await searchUser(userName);
 
